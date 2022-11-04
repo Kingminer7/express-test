@@ -7,14 +7,6 @@ const port = 3000
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
-  $.ajax({
-    url: 'localhost',
-    beforeSend: function(xhr) {
-         
-    }, success: function(data){
-        
-    }
-})
 })
 
 app.listen(port, () => {
