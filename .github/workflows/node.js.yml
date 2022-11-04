@@ -41,4 +41,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install express
-    - run: curl localhost:3000 --connection-timeout 50
+    - run: curl --connection-timeout 50 localhost:3000
